@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+
   // wee have to use useState to create a state variable(hooks)
  let [counter,setcounter]=useState(0)
   // here counter is a variable and setcounter is a function
@@ -30,5 +31,3 @@ return(
 }
 
 export default App
-
-
